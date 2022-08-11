@@ -1,0 +1,19 @@
+.form-home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.form-home-input{
+    width: 54%;
+    border: 1px var(--border-color) solid;
+    padding: 14px;
+}
+.form-home-input:focus-visible{
+    outline: 2px var(--border-color) solid;
+}
+.form-home-btn{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: 1px solid var(--border-color);
+}
